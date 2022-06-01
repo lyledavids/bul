@@ -1,0 +1,24 @@
+{
+  "name": "bul",
+  "version": "1.0.0",
+  "description": "Recommendations tool built on top of KNN3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Lyle Davids",
+  "license": "ISC",
+  "dependencies": {
+    "@ensdomains/ensjs": "^2.1.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
