@@ -18,8 +18,17 @@ Bul has multiple ways to recommend:
 /SimilarNFTs looks at NFT's owned by the address and recommends people to follow who own NFT's in the same collection
 ![Alt text](https://bafybeibecc4ydlnlurki3y2vk3nrbmxcm2kaw7sg5ynqngqcjbhl3ucibe.ipfs.dweb.link/Screenshot%202022-06-01%20at%2018.38.31.png "Similar NFTs")
 /DAOToken looks at the Governance tokens owned by the address and recommends people who also own the governance token
+
+
+
 /DAOActivity uses the Snapshot API and recommends people who are active in the voting/proposal process
+
+
+
 /POAP recommends people who went to the same events as you
+
+
+
 /Overall is a more-drilled down approach, combines some of the above
 
 
@@ -31,3 +40,5 @@ Javascript, Express, Node
 ### Run Project
 npm install
 npm start
+
+Used this address for testing 0x896002e29fe4cda28a3ae139b0bf7bac26b33a8c(dongdo.eth) Was part of the KNN3 docs
